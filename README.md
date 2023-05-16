@@ -139,19 +139,16 @@ n'est pas un *u*. Cette méthode permet d'exprimer un grand nombre de
 règles sous une forme compacte. L'application de cette règle sur le mot
 *cheval* donne le résultat suivant.
 
-::: center
-      mot      sous-règle          variante générée
-      -------- ------------------- ------------------
-      cheval   ch -> k    keval
-      cheval   ch -> w    weval
-      cheval   ch -> c    ceval
-      cheval   c -> cc    ccheval
-      cheval   l -> ll    chevall
-      cheval   ch -> cc   cceval
-      cheval   ch -> q    qeval
-      cheval   ch -> qu   queval
-      cheval   ch -> cq   cqeval
-:::
+
+     cheval   ch -> k    keval
+     cheval   ch -> w    weval
+     cheval   ch -> c    ceval
+     cheval   c -> cc    ccheval
+     cheval   l -> ll    chevall
+     cheval   ch -> cc   cceval
+     cheval   ch -> q    qeval
+     cheval   ch -> qu   queval
+     cheval   ch -> cq   cqeval
 
 Notre ressource comporte à ce jour $44$ méta-règles plus les règles
 concernant le doublement de consonnes.
