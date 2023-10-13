@@ -1,4 +1,7 @@
-
+(: Découpage en syllabe
+   Xavier-Laurent Salvador
+   2022
+:)
 
 declare function local:syllabator($motif){
 (:la fonction reçoit un mot et renvoie une analyse en syllabe avec la tonique:)   
